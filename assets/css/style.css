@@ -774,8 +774,8 @@ img {
     height: 9em;
     width: 9em;
     margin: 0 auto 3.5em auto;
-    border: 3px solid rgba(0, 0, 0, 0.2);
-    border-top-color: #000000;
+    border: 5px solid rgba(0, 0, 0, 0.2);
+    border-top-color: #024102;
     border-radius: 50%;
     -webkit-animation: spinner 1s infinite linear;
     animation: spinner 1s infinite linear;
@@ -792,7 +792,7 @@ img {
 
 .preloader-animation .loader .animated-letters {
     position: relative;
-    color: rgba(0, 0, 0, 0.2);
+    color: rgba(5, 150, 53, 0.2);
 }
 
 .loader .animated-letters:before {
@@ -800,7 +800,7 @@ img {
     content: attr(data-text-preloader);
     top: -3px;
     left: 0;
-    color: #000000;
+    color: #024102;
     opacity: 0;
     -webkit-transform: rotateY(-90deg);
     transform: rotateY(-90deg);
